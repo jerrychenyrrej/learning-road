@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>learning-road-tomcat</module>
+        <module>learning-road-java</module>
+        <module>learning-road-algorithm</module>
     </modules>
 
     <properties>
@@ -33,6 +35,23 @@
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>16.0.1</version>
+        </dependency>
     </dependencies>
 
 
